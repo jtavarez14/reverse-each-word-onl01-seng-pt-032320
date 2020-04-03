@@ -1,4 +1,4 @@
-def reverse_each_word(string)
+def reverse_each_word("string")
 string = "Hello there, and how are you?"
 string.split
 string.each do |reverse_phrase|
@@ -6,4 +6,4 @@ string.each do |reverse_phrase|
 end
 end
 
-reverse_each_word(string)
+reverse_each_word("string")
