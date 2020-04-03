@@ -8,4 +8,3 @@ reverse_the_word = string_array2.join(" ")
 return reverse_the_word
 end
 
-reverse_each_word(string)
