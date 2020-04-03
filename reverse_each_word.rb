@@ -1,7 +1,7 @@
 def reverse_each_word(string)
 string = "Hello there, and how are you?"
 string.split
-string.each_byte do |reverse_phrase|
+string.each do |reverse_phrase|
   reverse_phrase.reverse!
 end
 end
